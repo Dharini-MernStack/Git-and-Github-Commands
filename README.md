@@ -36,7 +36,7 @@ git remote add origin <repository-url>
 ### Cloning a Repository
 git clone <repository-url>
 
-#### Working with Branches
+### Working with Branches
 1. **Create a New Branch:**
 git checkout -b <branch-name>
 
@@ -50,7 +50,7 @@ git checkout -b <branch-name>
 4. **Delete a Branch:**
  git branch -d <branch-name>
 
-#### Committing Changes
+### Committing Changes
 1. **Stage Changes:**
  git add .
 
@@ -60,13 +60,13 @@ git checkout -b <branch-name>
 4. **Push Changes to Remote:**
 git push origin <branch-name>
 
-#### Pull Requests
+### Pull Requests
 **Create a Pull Request:**
 Visit your repository on GitHub and click on "New Pull Request" to start a pull request.
 **Merge a Pull Request:**
 After review, merge the pull request on GitHub
 
-#### Working with Remotes
+### Working with Remotes
 **List Remote Repositories:**
 git remote -v
 
@@ -76,7 +76,7 @@ git fetch
 **Pull Changes from Remote:**
 git pull
 
-#### Git Tags
+### Git Tags
 **Create a Tag:**
 git tag -a <tag-name> -m "Tag description"
 

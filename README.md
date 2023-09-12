@@ -57,7 +57,7 @@ Visit GitHub, log in, and click on the "New" button to create a new repository.
 
 ### Committing Changes
 **1.Stage Changes:**
-**git add . **
+**git add .**
 
 **2.Commit Changes:**
 **git commit -m "Your commit message here"**

@@ -30,13 +30,11 @@ Make sure you have Git installed on your local machine. You can download it from
   **Create a Repository on GitHub:**
 Visit GitHub, log in, and click on the "New" button to create a new repository.
 
-Add a Remote Repository:
-```bash
-git remote add origin <repository-url>
+**Add a Remote Repository:**
+```bash git remote add origin <repository-url>
 
-### Cloning a Repository
-```bash
-git clone <repository-url>
+ Cloning a Repository**
+```bash git clone <repository-url>
 
 ### Working with Branches
 1. **Create a New Branch:**

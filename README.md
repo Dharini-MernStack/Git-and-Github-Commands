@@ -44,23 +44,29 @@ git clone <repository-url>
 git checkout -b <branch-name>
 
 2. **Switch to an Existing Branch**
+```bash
    git checkout <branch-name>
 
 
 3. **List Branches:**
+```bash
    git branch
 
 4. **Delete a Branch:**
+```bash
  git branch -d <branch-name>
 
 ### Committing Changes
 1. **Stage Changes:**
+```bash
  git add .
 
 2. **Commit Changes:**
+```bash
  git commit -m "Your commit message here"
 
 4. **Push Changes to Remote:**
+```bash
 git push origin <branch-name>
 
 ### Pull Requests
@@ -71,19 +77,24 @@ After review, merge the pull request on GitHub
 
 ### Working with Remotes
 **List Remote Repositories:**
+```bash
 git remote -v
 
 **Fetch Changes from Remote:**
+```bash
 git fetch
 
 **Pull Changes from Remote:**
+```bash
 git pull
 
 ### Git Tags
 **Create a Tag:**
+```bash
 git tag -a <tag-name> -m "Tag description"
 
 **Push Tags to Remote:**
+```bash
 git push origin --tags
 
 
